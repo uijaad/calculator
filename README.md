@@ -33,13 +33,6 @@ https://uijaad.github.io/calculator/
 - **C** → Clear all  
 - **CE** → Delete last character
 
-### 📁 Project Structure
-/project
-│── index.htm
-│── style.css
-│── script.js
-│── README.md
-
 ### 🤝 Contributing
 
 Pull requests are welcome!
