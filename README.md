@@ -5,7 +5,7 @@ Supports numeric input, operators, special functions, keyboard filtering, and ex
 
 ---
 ## 🔗 Live Demo
-[https://your-username.github.io/your-repo-name/](https://uijaad.github.io/calculator/)
+[https://uijaad.github.io/calculator/]
 
 ## Screenshot
 
