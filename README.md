@@ -33,9 +33,6 @@ Supports numeric input, operators, special functions, keyboard filtering, and ex
 - **C** → Clear all  
 - **CE** → Delete last character
 
-### ✔ Error Handling
-If the expression is invalid, the calculator displays:
-
 ### 📁 Project Structure
 /project
 │── index.htm
