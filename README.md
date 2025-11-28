@@ -11,7 +11,7 @@ Supports numeric input, operators, special functions, keyboard filtering, and ex
 
 <img width="1115" height="543" alt="Screenshot 2025-11-28 at 7 31 04 PM" src="https://github.com/user-attachments/assets/830c8039-0623-41a2-91da-7ea1f1f60fe8" />
 
-
+---
 ## 🚀 Features
 
 ### ✔ Basic Operations
