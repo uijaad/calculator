@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    background-color: rgb(13, 13, 13);
+}
+calc-parent {
+    display: flex;
+    justify-content: center;
+}
+calc {
+    margin-top: 5%;
+    display: flex;
+    gap: 1rem;
+    font-size: 3rem;
+}
+calc-grid-section {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+calc-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.number {
+    background-color: rgb(94, 94, 94);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.number:hover{
+    background-color: rgb(70, 70, 70);
+    transition: 0.3s ease;
+}
+.isolate {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.number0 {
+    width: 100%;
+}
+.dot {
+    width: 100%;
+}
+.down-grid {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+calc-operators-parent {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+calc-operators {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.operator {
+    background-color: rgb(255, 164, 29);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    cursor: pointer;
+}
+.operator:hover {
+    background-color: rgb(212, 127, 0);
+    transition: 0.3s ease;
+}
+input {
+    width: auto;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    background-color: rgb(74, 74, 74);
+    border: 0;
+    outline: none;
+    font-size: 3rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 785px) {
+    calc-parent {
+        padding: 1rem;
+    }
+    calc {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        font-size: 1.7rem;
+        width: 100%;
+    }
+    calc-grid-section {
+        gap: 0.3rem;
+    }
+    calc-grid {
+        gap: 0.4rem;
+    }
+    .number,
+    .operator {
+        padding: 1rem;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    input {
+        font-size: 1.7rem;
+        max-width: 100%;
+        width: 100%;
+        padding: 0.5rem 0.6rem;
+        box-sizing: border-box;
+    }
+    calc-operators-parent {
+        flex-direction: row;
+        gap: 1rem;
+        
+        width: 100%;
+    }
+    calc-operators {
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .isolate, .number0, .dot {
+        width: 100%;
+    }
+    .down-grid {
+        flex-direction: row-reverse;
+    }
+}

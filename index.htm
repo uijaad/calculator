@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Task 2 - Calculator</title>
+
+</head>
+
+<body>
+    <calc-parent>
+        <calc>
+            <calc-grid>
+                <calc-screen>
+                    <input type="text" id="screen-input" >
+
+                </calc-screen>
+                <calc-grid-section>
+                    <div class="number">1</div>
+                    <div class="number">2</div>
+                    <div class="number">3</div>
+                </calc-grid-section>
+                <calc-grid-section>
+                    <div class="number">4</div>
+                    <div class="number">5</div>
+                    <div class="number">6</div>
+                </calc-grid-section>
+                <calc-grid-section>
+                    <div class="number">7</div>
+                    <div class="number">8</div>
+                    <div class="number">9</div>
+                </calc-grid-section>
+
+                <calc-grid-section class="down-grid">
+                    <div class="operator isolate" id="calculate">=</div>
+                    <div class="number number0">0</div>
+                    <div class="number dot">.</div>
+                </calc-grid-section>
+
+            </calc-grid>
+            <calc-operators-parent>
+                <calc-operators>
+                    <div class="operator" id="multiplate">×</div>
+                    <div class="operator" id="minuse">-</div>
+                    <div class="operator" id="power">x²</div>
+                    <div class="operator" id="change-sign">±</div>
+                    <div class="operator" id="clear-c">C</div>
+                </calc-operators>
+
+                <calc-operators>
+                    <div class="operator" id="plus">+</div>
+                    <div class="operator" id="division">÷</div>
+                    <div class="operator" id="square">√</div>
+                    <div class="operator" id="percentege">%</div>
+                    <div class="operator" id="clear-entry">CE</div>
+                </calc-operators>
+
+            </calc-operators-parent>
+        </calc>
+    </calc-parent>
+    <script src="main.js"></script>
+</body>
+
+</html>
